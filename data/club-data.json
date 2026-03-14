@@ -1,0 +1,21 @@
+{
+  "club": {"name": "Académie de Performances", "sport": "Rugby", "score_moyen": 66},
+  "teams": [
+    {"id":"u15","name":"U15","players":8,"score":62,"confiance":59,"regulation":49,"engagement":68,"stabilite":62,"alertes":2},
+    {"id":"u18","name":"U18","players":9,"score":67,"confiance":64,"regulation":54,"engagement":74,"stabilite":66,"alertes":1},
+    {"id":"seniors","name":"Seniors","players":7,"score":71,"confiance":69,"regulation":61,"engagement":76,"stabilite":70,"alertes":0}
+  ],
+  "players": [
+    {"name":"Lucas Martin","team":"U18","score":64,"confiance":56,"regulation":44,"engagement":75,"stabilite":81},
+    {"name":"Pierre Dubois","team":"U18","score":71,"confiance":68,"regulation":60,"engagement":74,"stabilite":69},
+    {"name":"Hugo Bernard","team":"U15","score":53,"confiance":52,"regulation":41,"engagement":65,"stabilite":54},
+    {"name":"Tom Dupont","team":"U15","score":44,"confiance":39,"regulation":38,"engagement":58,"stabilite":41},
+    {"name":"Mathis Leroy","team":"Seniors","score":74,"confiance":72,"regulation":63,"engagement":79,"stabilite":72},
+    {"name":"Noah Petit","team":"Seniors","score":69,"confiance":66,"regulation":59,"engagement":73,"stabilite":68}
+  ],
+  "passations": [
+    {"module":"CMP","team":"U18","url":"https://app.a4p.local/passation/cmp-u18","status":"active","responses":8},
+    {"module":"CMP","team":"U15","url":"https://app.a4p.local/passation/cmp-u15","status":"active","responses":6},
+    {"module":"CMP","team":"Seniors","url":"https://app.a4p.local/passation/cmp-seniors","status":"closed","responses":7}
+  ]
+}
