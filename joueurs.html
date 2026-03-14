@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joueurs | A4P V7</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/joueurs.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand small"><img src="assets/logo-a4p.png" alt="A4P" class="logo" /><div><div class="eyebrow">A4P V7</div><h1>Joueurs</h1></div></div>
+    <nav class="nav"><a href="index.html">Accueil</a><a href="dashboard.html">Dashboard</a><a href="equipes.html">Équipes</a><a href="joueurs.html" class="active">Joueurs</a><a href="passations.html">Passations</a></nav>
+  </header>
+  <main class="container">
+    <section class="card">
+      <h2>Tableau des joueurs</h2>
+      <table>
+        <thead>
+          <tr><th>Joueur</th><th>Équipe</th><th>Score</th><th>Confiance</th><th>Régulation</th><th>Engagement</th><th>Stabilité</th><th>Alerte</th></tr>
+        </thead>
+        <tbody id="playersBody"></tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

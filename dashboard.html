@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Club | A4P V7</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="js/dashboard.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand small"><img src="assets/logo-a4p.png" alt="A4P" class="logo" /><div><div class="eyebrow">A4P V7</div><h1>Dashboard Club</h1></div></div>
+    <nav class="nav"><a href="index.html">Accueil</a><a href="dashboard.html" class="active">Dashboard</a><a href="equipes.html">Équipes</a><a href="joueurs.html">Joueurs</a><a href="passations.html">Passations</a></nav>
+  </header>
+  <main class="container">
+    <section class="grid four" id="kpis"></section>
+    <section class="grid two">
+      <article class="card"><h2>Radar collectif club</h2><canvas id="clubRadar" height="240"></canvas></article>
+      <article class="card"><h2>Comparaison équipes</h2><canvas id="teamsBar" height="240"></canvas></article>
+    </section>
+    <section class="card">
+      <h2>Synthèse staff</h2>
+      <p id="staffSummary"></p>
+    </section>
+  </main>
+</body>
+</html>
